@@ -1,0 +1,53 @@
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+  background-color: rgb(65, 65, 65);
+}
+main{
+  margin-top: 25px;
+  flex-grow: 1;
+
+}
+footer{
+  min-height: 10vh;
+}
+
+
+@media screen and (max-width: 770px) {
+  #bg-one{
+    display:none !important;
+  }
+}
+
+@media only screen and (min-width: 770px) {
+  .spill {
+    position: absolute;
+    top: 1%;
+  }
+}
+
+*{
+  font-family: 'Oxanium', cursive;
+}
+.bg-lightish{
+  background-color: rgb(207, 207, 207);
+}
+.bg-image{
+  background-image: url("background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.border-left{
+  border-left: 5px solid #17a2b8;
+}
+.text-left{
+  text-align: left;
+}
+.text-shadow{
+  text-shadow: 1px 1px black;
+}
+.text-shadow-white{
+  text-shadow: 1px 1px white;
+}
